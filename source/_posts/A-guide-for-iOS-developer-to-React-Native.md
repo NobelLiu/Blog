@@ -47,7 +47,7 @@ Learn Once，Write Everywhere。
 ### Component
 创建完成项目，并用 WebStorm 加载好项目后，让我们看一下`index.ios.js`这个文件，这个文件的实质作用为软件加载 iOS 平台时，要展示的内容，与之对应的还有 `index.android.js` ，为 Android 平台的入口文件。
 
-``` javascript
+``` JSX
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -106,7 +106,7 @@ AppRegistry.registerComponent('RN', () => RN);
 `render`方法返回的是这个组件要呈现出来的东西，里面可以放各种各样自定义或系统提供的组件。  
 
 > `render`方法返回的`View`只可以有一个
-``` javascript
+``` JSX
 return (
             <View style={styles.yourStyle}></View>
             <View style={styles.yourStyle}></View>
@@ -130,7 +130,7 @@ return (
 这里制作一段不停闪烁的文字。文字内容本身在组件创建时就已经指定好了，所以文字内容应该是一个`prop`。而文字的显示或隐藏的状态（快速的显隐切换就产生了闪烁的效果）则是随着时间变化的，因此这一状态应该写到`state`中。
 
 
-``` javascript
+``` JSX
 class Blink extends Component {
   // constructor 为构造方法，系统自动调用
   constructor(props) {
@@ -169,7 +169,7 @@ class BlinkApp extends Component {
 #### 表单验证
 当邮箱格式不正确或密码长度小于8位时，显示灰色底色，同时登陆按钮无法点击，提示错误。  
 
-``` javascript  
+``` JSX  
 constructor(props) {
         super(props);
         this.state = {
@@ -216,7 +216,7 @@ React 可以轻松的做到在数据改变的时候刷新自己的状态，你�
 
 我们来写这样一个例子，一个可以显示数字文本的组件，文本的字体大小为显示的数字的值，每秒自增4。  
 
-``` javascript
+``` JSX
 export default class RN extends Component {
     constructor(props) {
         super(props);
@@ -252,7 +252,7 @@ class BiggerText extends Component {
 ### 方法
 拿按钮的点击事件为例   
  
-``` javascript
+``` JSX
 funcFromClassFunc= (title) => {
     alert(title);
 }
@@ -277,7 +277,7 @@ render() {
 ### 展示结构化数据
 Key-Value 使用点去取值，数组使用下标`[0]`取值，或使用`map`遍历。  
 
-``` javascript
+``` JSX
 constructor(props) {
         super(props);
         this.state = {
@@ -306,7 +306,7 @@ render() {
 ### 控件的展示与隐藏
 基本来说，我们要隐藏一个控件，那就在控件的`render()`方法中 return `null`，这个控件就可以理解为被隐藏了。  
 
-``` javascript
+``` JSX
 render() {
         var hidden = false;
         if (hidden) {
@@ -322,9 +322,9 @@ render() {
 ```	
 	
 ### 页面的跳转
-页面的跳转一般会使用`Navigator`， 它使用纯JavaScript实现了一个导航栈，因此可以跨平台工作，同时也便于定制。 
+页面的跳转一般会使用`Navigator`， 它使用纯 JavaScript 实现了一个导航栈，因此可以跨平台工作，同时也便于定制。 
   
-``` javascript
+``` JSX
 export default class RN extends Component {
     render() {
         let defaultName = 'FirstPageComponent';
@@ -439,7 +439,7 @@ RCT_EXPORT_METHOD(showAlert:(NSString *)title message:(NSString *)message) {
 在 js 文件中要先导入`import {  NativeModules } from 'react-native';`。
 用法如下：  
 
-``` javascript
+``` JSX
 showAlert = () => {
 	var NativeAlert = NativeModules.NativeAlert;
 	NativeAlert.showAlert('Title', 'Message');
