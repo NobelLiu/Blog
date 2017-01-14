@@ -11,8 +11,10 @@ tags:
 缅甸最近宣布对全球最受欢迎的社交网站Facebook解禁，目前全球仅剩4个国家仍然对Facebook实施封锁，他们分别是朝鲜、古巴、伊朗，和其他国家。 
 {% endcq %}
 
-当时看到这个新闻真算是把我逗得捧腹了，在大陆，由于[防火墙](https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E)的存在，导致我们在访问很大部分的国外知名网络服务时，一般看到的都是这样的景象:
 <!-- more --> 
+
+
+当时看到这个新闻真是笑岔气，在大陆，由于[防火墙](https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E)的存在，导致我们在访问很大部分的国外知名网络服务时，一般看到的都是这样的景象:
 ![无法访问](https://ww1.sinaimg.cn/large/006y8lVagw1fbljnkiy23j31kw17qgs6.jpg)  
 从 2012 年起往后 Google 全面被封锁到“不能用”，到百度的广告越来越猖獗到“不能用”，老百姓想好好查个资料都不行。
 好吧，那就说下我的翻墙手段吧。  
@@ -49,7 +51,12 @@ Proxifier 是一款功能非常强大的socks5客户端，可以让不支持通�
 [Proxifier](https://www.proxifier.com/) 是**收费**软件，包含 GUI，如果你不想付费或其他原因，可以使用Proxifier的**免费开源**版本 [Proximac](https://github.com/csujedihy/proximac)。    
  
 ![Proximac 截图](https://ww1.sinaimg.cn/large/006y8lVagw1fbljpkxgvyj312q0qk7as.jpg)
-两者操作都算简单，可以参照官网或查阅相关资料。
+两者操作都算简单，可以参照官网或查阅相关资料。  
+
+*2017年1月14日更新*
+## Shadowsocks - NG  
+由于 [Shadowsocks - NG](https://github.com/shadowsocks/ShadowsocksX-NG) 内置了 [privoxy](http://www.privoxy.org/)，我提交了一个 PR，在 菜单-偏好设置-HTTP代理设置 中，新增了一个按钮，可以复制终端用的 Export 命令到剪贴板，粘贴至你的终端，然后回车即可。
+![HTTP代理设置](https://ww2.sinaimg.cn/large/006tKfTcgw1fbq12wv3uqj30ka0jmgn2.jpg)
 # 使用“互联网”
 至现在为止，你应该可以比较轻松的访问大部分被封锁的网络服务，那么哪些是值得我们去用的呢？
 可以说：太多了...  
