@@ -23,20 +23,24 @@ tags:
 #### 正面
 小女孩大图来自自由无版权图片站[Picjumbo](https://picjumbo.com/little-girl-with-sunflower-in-a-sunflower-field/)
 从图片中吸了几个三个颜色作为文字颜色。
-![Colors](https://ww3.sinaimg.cn/large/006y8lVagw1fbmqfh7t3bj30780a2gly.jpg)
+<p style="color:white;background-color:#667946;width:100px;font-size:20px;border-radius:5px;text-align:center;">#667946</p>
+<p style="color:white;background-color:#F6A623;width:100px;font-size:20px;border-radius:5px;text-align:center;">#F6A623 </p>
+<p style="color:white;background-color:#4A4A4A;width:100px;font-size:20px;border-radius:5px;text-align:center;">#4A4A4A </p>
 吸引眼球我觉得使用大图来说足够了，再佐以拖屋名称及一句口号，来吸引潜在客户群体。
 #### 背面
 正面吸引住眼球了，背面就来详细介绍下拖屋的环境、服务等信息。段落化的文字，也更利于阅读。
 
 ### 实践
 #### 正面
-![正面](https://ww4.sinaimg.cn/large/006y8lVagw1fbmpr0dtedj31dl1y6b29.jpg)
+<img src="https://ww4.sinaimg.cn/large/006y8lVagw1fbmpr0dtedj31dl1y6b29.jpg" class="full-image" />
 
 #### 背面
-![背面](https://ww3.sinaimg.cn/large/006y8lVagw1fbmpqwyh50j31dl1y64qp.jpg)
+<img src="https://ww3.sinaimg.cn/large/006y8lVagw1fbmpqwyh50j31dl1y64qp.jpg" class="full-image" />
 
-最后呢，因为对适用群体的分析还是不够，小朋友们还是会对花花绿绿的东西比较感冒，于是被无情 Pass 😂。  
+最后呢，因为对适用群体的分析还是不够，小朋友们还是会对花花绿绿的东西比较感冒，于是被无情 Pass 。😂  
 ![结果](https://ww1.sinaimg.cn/large/006y8lVagw1fbmquhf4ofj30c10c5wfp.jpg)  
-这就没办法了，「客户」不满意，没让我打回去重做我就感觉很庆幸了😆。  
+这就没办法了，「客户」不满意，没让我打回去重做我就感觉很庆幸了。😆 
+<div style="opacity: 0.1;">
 Ps.「客户」还是挺开心的。
 ![嘿嘿](https://ww1.sinaimg.cn/large/006y8lVagw1fbmqxbd2iwj30c209vjru.jpg)
+</div> 
